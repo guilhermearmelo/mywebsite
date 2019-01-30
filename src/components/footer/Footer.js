@@ -1,11 +1,11 @@
 import React from 'react';
-import fundo from './footer.gif';
+import foot from './footer.gif';
 
 const Footer = () => {
     return (
         <div>
             <footer 
-                containerStyle={`backgroundImage:url(${fundo});`} 
+                containerStyle= {{backgroundImage: `url(${foot})`}}
                 className="tc-l bg-center cover bg-black">
                 <div class="w-100 ph3 pv5 bg-black-80">
                     <a 

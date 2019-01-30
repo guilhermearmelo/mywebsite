@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
-import Body from './components/body/Body';
+import Tecnologies from './components/tecnologies/Tecnologies';
+import Portfolio from './components/portfolio/Portfolio';
 
 import './App.css';
 
@@ -10,7 +11,8 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Body />
+        <Tecnologies />
+        <Portfolio />
         <Footer />
       </div>
     );
