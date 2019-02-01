@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer 
-                containerStyle= {{backgroundImage: `url(${foot})`}}
+                style= {{backgroundImage: `url(${foot})`}}
                 className="tc-l bg-center cover bg-black">
                 <div class="w-100 ph3 pv5 bg-black-80">
                     <a 
